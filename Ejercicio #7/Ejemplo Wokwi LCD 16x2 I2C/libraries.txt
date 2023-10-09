@@ -1,0 +1,9 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+# Automatically added based on includes:
+
+Adafruit Sensor Lab
+Adafruit BMP085 Library
+LiquidCrystal I2C
+DHT sensor library
