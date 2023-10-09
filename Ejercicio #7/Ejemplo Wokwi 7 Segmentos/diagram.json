@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "Ulises Ale",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 10.67, "left": -66.67, "attrs": {} },
+    { "type": "wokwi-7segment", "id": "sevseg1", "top": -6.49, "left": 153.88, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 163.15,
+      "left": 107.07,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "r1:1", "red", [ "v0" ] ],
+    [ "r1:2", "sevseg1:COM.2", "red", [ "v-1.73", "h98.3", "v-215.33", "h-80" ] ],
+    [ "sevseg1:F", "esp:D23", "green", [ "v-44.89", "h-54.5", "v91.33" ] ],
+    [ "sevseg1:G", "esp:D22", "green", [ "v-28.22", "h-34.9", "v74" ] ],
+    [ "sevseg1:A", "esp:D15", "green", [ "v-36.22", "h68.97", "v168.67" ] ],
+    [ "sevseg1:B", "esp:D2", "green", [ "v-26.89", "h52.03", "v168.67" ] ],
+    [ "sevseg1:C", "esp:D4", "green", [ "v0" ] ],
+    [ "sevseg1:D", "esp:D5", "green", [ "v0" ] ],
+    [ "sevseg1:E", "esp:D18", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
