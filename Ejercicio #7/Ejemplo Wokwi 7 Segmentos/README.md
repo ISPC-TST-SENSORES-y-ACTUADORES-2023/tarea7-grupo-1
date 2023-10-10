@@ -6,4 +6,7 @@
 
 ![esquema](/Ejercicio%20#7/Ejemplo%20Wokwi%207%20Segmentos/esquema.png)
 
+Enlace Wokwi
+[Wokwi](https://wokwi.com/projects/368550108576126977)
+
 ![logo](/assets/Curso%20ISPC.png)
