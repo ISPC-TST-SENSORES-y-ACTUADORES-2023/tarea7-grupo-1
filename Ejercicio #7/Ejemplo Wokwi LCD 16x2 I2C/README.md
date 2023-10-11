@@ -5,6 +5,6 @@
 ![esquema](/assets/esquemaLCD.png)
 
 ### Enlace
-## **[Wokwi](https://wokwi.com/projects/368550108576126977)**
+## **[Wokwi](https://wokwi.com/projects/375231697662735361)**
 
 ![logo](/assets/Curso%20ISPC.png)
